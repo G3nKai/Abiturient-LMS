@@ -3,7 +3,7 @@ using HawkN.Iso.Countries;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Abiturient.Data.Models
+namespace DAL.Entities
 {
     public class Applicant
     {

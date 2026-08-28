@@ -1,7 +1,7 @@
-﻿using Abiturient.Data.Models;
+﻿using DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Abiturient.Data
+namespace DAL
 {
     public class ApplicationDbContext : DbContext
     {
@@ -9,7 +9,7 @@ namespace Abiturient.Data
         {
         }
 
-        public DbSet<Models.Applicant> Applicants { get; set; }
+        public DbSet<DAL.Entities.Applicant> Applicants { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

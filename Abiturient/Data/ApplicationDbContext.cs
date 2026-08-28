@@ -7,14 +7,13 @@ namespace Abiturient.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            Database.EnsureCreated();
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<Models.Applicant> Applicants { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>().HasKey(x => x.Id);
         }
+
     }
 }

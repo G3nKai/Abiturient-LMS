@@ -1,6 +1,7 @@
-using Abiturient.Models;
+using Abiturient.Data.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Abiturient.Data;
 
 namespace Abiturient.Controllers
 {

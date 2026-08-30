@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-AuthService-eb747165-6174-4dba-a9d4-88aa4b5680b9</UserSecretsId>
+    <UserSecretsId>aspnet-AuthService-04ed4c3c-ae17-40c2-b894-72ed940ec0cb</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,11 +13,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="10.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.11" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.11">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.11" />
   </ItemGroup>
 
 </Project>

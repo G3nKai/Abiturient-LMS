@@ -1,6 +1,5 @@
 <Solution>
   <Project Path="Abiturient/Applicant.csproj" />
-  <Project Path="AuthService/AuthService.csproj" />
   <Project Path="Common/Common.csproj" />
   <Project Path="DAL/DAL.csproj" />
 </Solution>
